@@ -1,0 +1,495 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+.icon {
+  font-family: "iconfont" !important;
+  font-size: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+  background: #e9efef;
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+.one {
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 1.5rem;
+  background: #fbf8f3;
+  position: relative;
+}
+.header .headLeft {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+}
+.header .headTop {
+  position: absolute;
+  color: #010101;
+  top: 20px;
+  text-align: center;
+  left: 65px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header .headBottom {
+  color: #a79fa0;
+  position: absolute;
+  top: 45px;
+  left: 65px;
+  text-align: center;
+  font-weight: 400;
+}
+.header .headRight {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+
+.main {
+  width: 100%;
+  height: 9.7rem;
+  position: relative;
+  background: url(../img/bg.png);
+  background-size: contain;
+}
+.main .box {
+  display: none;
+}
+.main .box .metuj {
+  position: absolute;
+  top: 18px;
+  left: 42px;
+  font-size: 28px !important;
+}
+.main .box .metuj1 {
+  position: absolute;
+  top: 18px;
+  left: 42px;
+  font-size: 28px !important;
+  display: none;
+}
+.main .box .metu {
+  width: 4.5rem;
+  height: 0.05rem;
+  background: #2b3e37;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  margin-left: 75px;
+}
+.main .box .metu .v-i {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  position: absolute;
+  top: -8.5px;
+  right: -10px;
+}
+.main .box .metu1 {
+  height: 0.05rem;
+  background: #48f194;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  margin-left: 75px;
+}
+.main .zj {
+  width: 5.3rem;
+  height: 5.3rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 1.1rem;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, 0 0, 0 140%, from(#f6e4e4), to(#a7ecd9));
+  box-sizing: border-box;
+}
+.main .zj .tu {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  border-radius: 50%;
+}
+.main .zj .tu .img {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 50%;
+}
+.main #geci {
+  width: 100%;
+  height: 2.8rem;
+  position: absolute;
+  bottom: 0.7rem;
+  overflow: hidden;
+  left: 0;
+}
+.main #geci .geci {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main #geci .geci li {
+  width: 100%;
+  height: 0.7rem;
+  text-align: center;
+}
+.main .process {
+  width: 4.5rem;
+  height: 0.05rem;
+  background: #2b3e37;
+  position: absolute;
+  left: 0;
+  bottom: 35px;
+  margin-left: 75px;
+}
+.main .process .p-i {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  position: absolute;
+  top: -7.5px;
+  left: -10px;
+}
+.main .process1 {
+  height: 0.05rem;
+  background: #48f194;
+  position: absolute;
+  left: 0;
+  bottom: 35px;
+  margin-left: 75px;
+}
+.main .time1 {
+  color: #3a6555;
+  position: absolute;
+  left: 20px;
+  bottom: 28px;
+}
+.main .time2 {
+  color: #3a6555;
+  position: absolute;
+  right: 20px;
+  bottom: 28px;
+}
+
+.footer {
+  width: 100%;
+  height: 2rem;
+  background: #e9efef;
+  position: relative;
+  bottom: 0;
+}
+.footer .back {
+  position: absolute;
+  top: 0.53rem;
+  left: 0.3rem;
+}
+.footer .pre {
+  position: absolute;
+  top: 0.6rem;
+  left: 1.5rem;
+}
+.footer .next {
+  position: absolute;
+  top: 0.6rem;
+  right: 1.5rem;
+}
+.footer .sc {
+  position: absolute;
+  top: 0.53rem;
+  right: 0.3rem;
+}
+
+.play {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #c7cdcc;
+  position: absolute;
+  left: 130px;
+  bottom: 15px;
+}
+.play .play1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  left: 11px;
+  bottom: 9px;
+}
+.play .play1 .play2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #3fd67f;
+  position: relative;
+  left: 15px;
+  bottom: -16px;
+}
+.play .play1 .play2 .pause {
+  position: absolute;
+  left: 20px;
+  bottom: 3px;
+  line-height: 60px;
+  color: #fff;
+}
+.play .play1 .play2 .pause1 {
+  position: absolute;
+  left: 5px;
+  color: #fff;
+  line-height: 60px;
+  display: none;
+}
+
+.zhuan {
+  animation: animate 30s linear infinite forwards;
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.two {
+  overflow: hidden;
+  display: none;
+}
+.two .left {
+  width: 3rem;
+  height: 1.5rem;
+  font-size: 20px;
+  margin-left: 30px;
+  line-height: 1.5rem;
+  float: left;
+}
+.two .right {
+  float: right;
+}
+.two .add {
+  position: absolute;
+  right: 80px;
+  top: 20px;
+  font-weight: 200;
+}
+.two .delete {
+  font-weight: 200;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+.two .list {
+  width: 100%;
+  height: 9.7rem;
+  background: whitesmoke;
+}
+.two .list ul {
+  width: 100%;
+  height: auto;
+}
+.two .list ul li {
+  width: 100%;
+  height: 50px;
+  padding: 15px 30px;
+  cursor: pointer;
+  position: relative;
+}
+.two .list ul li span {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #999;
+  transform: rotate(90deg);
+}
+.two .list ul li .sTop {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #333;
+}
+.two .list ul li .sBottom {
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #999;
+  border-bottom: 1px solid #eee;
+}
+.two .list ul li.active span, .two .list ul li.active .sTop, .two .list ul li.active .sBottom {
+  color: dodgerblue;
+}
+.two .list .xg {
+  width: 100%;
+  position: relative;
+  top: 15px;
+}
+.two .list .xg .xTop {
+  width: 100%;
+  height: 1rem;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  padding-left: 25px;
+  color: #333;
+  line-height: 1rem;
+}
+.two .list .xg .xTop .more {
+  width: 70px;
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 3.5rem;
+  color: #999;
+  font-size: 16px;
+}
+.two .list .xg .xLeft {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin-left: 20px;
+  margin-top: 105px;
+  background: url(../img/4.jpg);
+  background-size: cover;
+}
+.two .list .xg .xRight {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+}
+.two .list .xg .xRight ul {
+  width: 100%;
+  height: 3rem;
+}
+.two .list .xg .xRight ul li {
+  width: 4.2rem;
+  height: 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #999;
+  margin-top: 2.1rem;
+  margin-left: -10px;
+}
+.two .list .xg .xRight ul li:nth-of-type(2) {
+  margin-top: 0.1rem;
+}
+.two .list .xg .xRight ul li:nth-of-type(3) {
+  margin-top: 0.05rem;
+}
+.two .footerLeft {
+  width: 5rem;
+  height: 100%;
+  float: left;
+}
+.two .footerLeft .yuan {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.two .footerLeft .yuan .img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.two .footerLeft .yuanTop {
+  font-size: 18px;
+  position: absolute;
+  top: 18px;
+  left: 103px;
+}
+.two .footerLeft .yuanBottom {
+  font-size: 16px;
+  color: #999;
+  position: absolute;
+  top: 65px;
+  left: 98px;
+}
+.two .footerRight {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3fd67f;
+  position: absolute;
+  top: 33px;
+  right: 20px;
+}
+.two .footerRight .foot1 {
+  font-size: 20px !important;
+  color: #fff;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+.two .footerRight .foot2 {
+  font-size: 20px !important;
+  color: #fff;
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  display: none;
+}
